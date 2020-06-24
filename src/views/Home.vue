@@ -68,8 +68,18 @@ export default class Home extends Vue {
   background-color: #777777;
   border-radius: 50%;
 }
-.name {
+.profile-details {
   font-size: 20px;
+}
+.name {
+  text-transform: uppercase;
+}
+.profile-title {
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.profile-description {
+  font-size: 0.9rem;
 }
 .principles {
   text-align: left;
@@ -81,5 +91,12 @@ export default class Home extends Vue {
   font-size: 24px;
   text-transform: uppercase;
   text-shadow: 0 2px 5px hsla(0,0%,0%,.25)
+}
+@media only screen and (min-width: 768px) {
+  .home {
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+  }
 }
 </style>

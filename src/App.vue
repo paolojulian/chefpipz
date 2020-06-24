@@ -42,4 +42,10 @@ html {
   --orange: #F2994A;
   --light-default: #FAFAFA;
 }
+
+@media only screen and (min-width: 768px) {
+  html {
+    margin-top: 50px;
+  }
+}
 </style>
